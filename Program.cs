@@ -1,18 +1,11 @@
-﻿//Variables are really important. They allow you to store data inside your memory
-// and reuse it in your code every single time that u need it.
-// declare a variable
-string myFriendsName;
-// assign a value to the variable
-myFriendsName = "John";
+﻿// Prints out whatever is insideof ()
+Console.WriteLine("Enter something!");
 
-// use/access the variable
-Console.WriteLine(myFriendsName);
+//takes the user input and stores it
+//variable with the name userInput and the data type string
+//strings are used for text
+string userInput = Console.ReadLine();
 
-// overwriting the variable value
-myFriendsName = "Jane";
-Console.WriteLine(myFriendsName);
-
-Console.ReadKey();
-
-// we can create and assign value to a variable in one line
-string myFriendsName2 = "Frank";
+//we are adding to strings together and writing them onto the console
+Console.WriteLine("You entered " + userInput); // string concatenation
+Console.ReadKey(); // Waits for a key press before closing the console window
